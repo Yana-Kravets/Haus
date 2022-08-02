@@ -5,172 +5,281 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haus</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+        integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     
-<header>
-    <div>
-        <p>Free shipping on orders over $50</p>
+<header class="header">
+
+    <div class="header-up-page">
+        <p class="header-up-text">Free shipping on orders over $50</p>
     </div>
-    <ul>
-        <li>
-            <a href="./index.html">membership</a>
-        </li>
-        <li>
-            <a href="./index.html">our story</a>
-        </li>
-    </ul>
-    <img src="./images/logo.png" alt="Haus">
-    <ul>
-        <li>
-            <a href="./index.html">Newsletter</a>
-        </li>
-        <li>
-            <a href="./index.html">Account</a>
-        </li>
-        <li>
-            <a href="./index.html">Cart (0)</a>
-        </li>
-    </ul>
+    <div class="container page-header">
+        <div class="page-header-position">
+            <ul class="nav-list-left">
+                <li class="nav-item-left">
+                    <a class="nav-link nav-link-left" href="./index.html">shop</a>
+                </li>
+                <li class="nav-item-left">
+                    <a class="nav-link nav-link-left" href="./index.html">membership</a>
+                </li>
+                <li class="nav-item-left">
+                    <a class="nav-link nav-link-left" href="./index.html">our story</a>
+                </li>
+            </ul>
+            <div>
+            <a href="./index.html">
+                <img class="logo" src="./images/logo.png" alt="Haus" width="64" height="40">
+            </a>
+            </div>
+            <ul class="nav-list-right">
+                <li class="nav-item-right">
+                    <a class="nav-link nav-link-right" href="./index.html">Newsletter</a>
+                </li>
+                <li class="nav-item-right">
+                    <a class="nav-link nav-link-right" href="./index.html">Account</a>
+                </li>
+                <li class="nav-item-right">
+                    <a class="nav-link nav-link-right" href="./index.html">Cart (0)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
 </header>
 
 <main>
-    <section>
-        <img src="./images/photo1.jpg" alt="">
-        <h1>Alcohol for the modern drinker</h1>
-        <p>Light and refreshing flavors made with real, clean ingredients you can feel good about. Just pour, sip, and enjoy.</p>
-        <button type="button">Shop ALL</button>
+    <section class="hero">
+            <div class="hero-wrapper-left">
+                <img src="./images/photo1.jpg" alt="cocktails in hand" width="720" height="800">
+            </div>
+            <div class="hero-wrapper-right">
+                <div class="hero-wrapper">
+                    <h1 class="hero-title">Alcohol for the modern drinker</h1>
+                    <p class="hero-text">Light and refreshing flavors made with real, clean ingredients you can feel good about. Just pour, sip, and enjoy.</p>
+                    <button class="button hero-btn" type="button">Shop ALL</button>
+                </div>
+            </div>
     </section>
 
-    <section>
-        <h2></h2>
-        <ul>
-            <li>
-                <p>"What makes Haus so special is its incredible flavors."</p>
-                <a href="">
-                    <svg>
-                        <use></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <p>“For the wine or cocktail lover who’s tried it all and wants something new and refreshing.”</p>
-                <a href="">
-                    <svg>
-                        <use></use>
-                    </svg>
-                </a>
-            </li>
-            <li>
-                <p>“Cleaner, responsibly sourced, and lower in alcohol.”</p>
-                <a href="">
-                    <svg>
-                        <use></use>
-                    </svg>
-                </a>
-            </li>
-        </ul>
-    </section>
-
-    <section>
-        <p>Made with natural ingredients, nothing fake</p>
-        <h2>Shop All Flavors</h2>
-        <ul>
-            <li>
-                <img src="./images/photo2.jpg" alt="">
-                <h3>The Sampler Kit</h3>
-                <p>Try a variety of Haus flavors with our customizable four-bottle kit. Each bottle serves 2-3 drinks.</p>
-                <button type="button">Shop Now</button>
-            </li>
-            <li>
-                <img src="./images/photo3.jpg" alt="">
-                <h3>Grapefruit Jalapeño</h3>
-                <p>Light and refreshing, this aperitif is a bright blend of citrus with a subtle kick of fresh jalapeño.</p>
-                <button type="button">Shop Now</button>
-            </li>
-            <li>
-                <img src="./images/photo4.jpg" alt="">
-                <h3>Citrus Flower</h3>
-                <p>A fresh Californian take on the apéritif. Made with crisp lemon and subtle elderflower.</p>
-                <button type="button">Shop Now</button>
-            </li>
-        </ul>
-    </section>
-
-    <section>
-        <img src="./images/photo5.jpg" alt="">
-        <h2>An intro to apéritifs</h2>
-        <p>Apéritifs are a category of spirits with complex flavors derived from fruits, herbs, and botanicals. Their lighter
-        alcohol content (less than whiskey, more than wine) makes them perfect to sip all evening.</p>
-    </section>
-
-    <section>
-        <ul>
-            <li>
-                <h2>Easy to drink</h2>
-                <p>The perfect anytime drink, sip Haus on its own or with simple mixers you probably already have like soda or tonic.</p>
-            </li>
-            <li>
-                <h2>Natural ingredients. Nothing fake.</h2>
-                <p>Artificial ingredients and refined sugars are a big culprit in hangovers. Feel good about what’s in your glass that
-                night — and the next day.</p>
-            </li>
-            <li>
-                <h2>Delivered to your door</h2>
-                <p>We blend, bottle, and ship our products straight from Sonoma, CA to your doorstep.</p>
-            </li>
-        </ul>
-        <img src="./images/photo6.jpg" alt="">
-    </section>
-
-    <section>
-        <ul>
-            <li>
-                <p>“Haus has found the solution I didn’t really know I was looking for!”</p>
-                <span>— Susan</span>
-                <h2>verified buyer</h2>
-            </li>
-            <li>
-                <p>“I love the flavor of this apéritif — it’s light and lively, and it’s refreshing with seltzer or tonic.”</p>
-                <span>— Fiona</span>
-                <h2>verified buyer</h2>
-            </li>
-            <li>
-                <p>“It’s delicious, and unique. I love everything from the packaging, to the flavors.”</p>
-                <span>— Esteban</span>
-                <h2>verified buyer</h2>
-            </li>
-        </ul>
-    </section>
-
-    <section>
-        <img src="./images/photo7.jpg" alt="">
-        <h2>We do things differently than most producers</h2>
-        <p>Our flavors are derived from real fruits, herbs, and botanicals, not ingredients from a lab. We leave out the artificial
-        ingredients and excess sugar, and tell you what’s inside. It’s a better way to drink.</p>
-        <a href="">LEARN MORE</a>
-    </section>
-
-    <section>
-        <img src="./images/photo8.jpg" alt="">
-        <div>
-            <h2>Set the mood</h2>
-            <p>Curated playlists from Woody + Helena, plus some of our friends and favorite brands.</p>
-            <button type="button">Spotify</button>
+    <section class="clients">
+        <div class="container">
+            <h2 class="visually-hidden">Clients</h2>
+            <ul class="clients-list">
+                <li class="clients-item">
+                    <p class="clients-text">"What makes Haus so special is its incredible flavors."</p>
+                    <a class="clients-img" href="">
+                        <img src="images/shop1.png" alt="Good wine">
+                    </a>
+                </li>
+                <li class="clients-item">
+                    <p class="clients-text">“For the wine or cocktail lover who’s tried it all and wants something new and refreshing.”</p>
+                    <a class="clients-img" href="">
+                        <img src="images/shop2.png" alt="the new york times">
+                    </a>
+                </li>
+                <li class="clients-item"> 
+                    <p class="clients-text">“Cleaner, responsibly sourced, and lower in alcohol.”</p>
+                    <a class="clients-img" href="">
+                        <img src="images/shop3.png" alt="bon appetit">
+                    </a>
+                </li>
+            </ul>
         </div>
-        <div>
-            <p>Follow us, share us, drink Ha(us)</p>
+    </section>
+
+    <section class="offer">
+        <div class="container">
+            <div>
+                <p class="offer-text-up">Made with natural <br> ingredients, nothing fake</p>
+                <h2 class="offer-title">Shop All Flavors</h2>
+            </div>
+
+            <ul class="offer-list">
+                <li class="offer-item">
+                    <img class="offer-img" src="./images/photo2.jpg" alt="The Sampler Kit" width="382" height="451">
+                    <div class="offer-wrapper"> 
+                        <h3 class="offer-subtitle">The Sampler Kit</h3>
+                        <p class="offer-text">Try a variety of Haus flavors with our customizable four-bottle kit. Each bottle serves 2-3 drinks.</p>
+                        <button class="button offer-btn" type="button">Shop Now</button>
+                    </div>
+                </li>
+                <li class="offer-item">
+                    <img class="offer-img" src="./images/photo3.jpg" alt="Grapefruit Jalapeño" width="382" height="451">
+                    <div class="offer-wrapper">
+                        <h3 class="offer-subtitle">Grapefruit Jalapeño</h3>
+                        <p class="offer-text">Light and refreshing, this aperitif is a bright blend of citrus with a subtle kick of fresh jalapeño.</p>
+                        <button class="button offer-btn" type="button">Shop Now</button>
+                    </div>
+                </li>
+                <li class="offer-item">
+                    <img class="offer-img" src="./images/photo4.jpg" alt="Citrus Flower" width="382" height="451">
+                    <div class="offer-wrapper">
+                        <h3 class="offer-subtitle">Citrus Flower</h3>
+                        <p class="offer-text">A fresh Californian take on the apéritif. Made with crisp lemon and subtle elderflower.</p>
+                        <button class="button offer-btn" type="button">Shop Now</button>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <ul>
-            <li><a href="">Instagram</a></li>
-            <li><a href="">Twitter</a></li>
-            <li><a href="">Facebook</a></li>
-        </ul>
+    </section>
+
+    <section class="aperitif">
+        <div class="container">
+            <img class="aperitif-img" src="./images/photo5.jpg" alt="An intro to aperitifs" width="1320" height="560">
+            <div class="aperitif-wrapper">
+                <h2 class="aperitif-title">An intro to apéritifs</h2>
+                <p class="aperitif-text">Apéritifs are a category of spirits with complex flavors derived from fruits, herbs, and botanicals. Their lighter
+                alcohol content (less than whiskey, more than wine) makes them perfect to sip all evening.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="descrip">
+        <div class="container page-descrip">
+            <ul class="descrip-list">
+                <li class="descrip-item">
+                    <h2 class="descrip-title">Easy to drink</h2>
+                    <p class="descrip-text">The perfect anytime drink, sip Haus on its own or with simple mixers you probably already have like soda or tonic.</p>
+                </li>
+                <li class="descrip-item">
+                    <h2 class="descrip-title">Natural ingredients. Nothing fake.</h2>
+                    <p class="descrip-text">Artificial ingredients and refined sugars are a big culprit in hangovers. Feel good about what’s in your glass that
+                    night — and the next day.</p>
+                </li>
+                <li class="descrip-item">
+                    <h2 class="descrip-title">Delivered to your door</h2>
+                    <p class="descrip-text">We blend, bottle, and ship our products straight from Sonoma, CA to your doorstep.</p>
+                </li>
+            </ul>
+            <div>
+                <img src="./images/photo6.jpg" alt="two bottles on the table" width="880" height="608">
+            </div>
+        </div>
+    </section>
+
+    <section class="review">
+        <div class="container">
+            <ul class="review-list">
+                <li class="review-item">
+                    <p class="review-text">“Haus has found the solution I didn’t really know I was looking for!”</p>
+                    <span class="review-name">— Susan</span>
+                    <h2 class="review-title">verified buyer</h2>
+                </li>
+                <li class="review-item">
+                    <p class="review-text">“I love the flavor of this apéritif — it’s light and lively, and it’s refreshing with seltzer or tonic.”</p>
+                    <span class="review-name">— Fiona</span>
+                    <h2 class="review-title">verified buyer</h2>
+                </li>
+                <li class="review-item">
+                    <p class="review-text">“It’s delicious, and unique. I love everything from the packaging, to the flavors.”</p>
+                    <span class="review-name">— Esteban</span>
+                    <h2 class="review-title">verified buyer</h2>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="wedo">
+        <div class="container page-wedo">
+            <div>
+                <img src="./images/photo7.jpg" alt="flavors" width="550" height="470">
+            </div>
+            <div>
+                <h2 class="wedo-title">We do things differently than most producers</h2>
+                <p class="wedo-text">Our flavors are derived from real fruits, herbs, and botanicals, not ingredients from a lab. We leave out the artificial
+                ingredients and excess sugar, and tell you what’s inside. It’s a better way to drink.</p>
+                <a class="wedo-link" href="">LEARN MORE</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="set">
+        <div class="container">
+            <div class="set-img-wrapper">
+                <img src="./images/photo8.jpg" alt="feast with alcoholic beverages" width="1440" height="568">
+            </div>
+            <div class="set-up-form">
+                <h2 class="set-title">Set the mood</h2>
+                <p class="set-up-text">Curated playlists from Woody + Helena, plus some of our friends and favorite brands.</p>
+                <button class="button set-btn" type="button">Spotify</button>
+            </div>
+            <div class="set-down-form">
+                <p class="set-down-text">Follow us, share us, drink Ha(us)</p>
+                <ul class="set-list">
+                    <li class="set-item">
+                        <a class="set-link" href="">Instagram</a>
+                    </li>
+                    <li class="set-item">
+                        <a class="set-link" href="">Twitter</a>
+                    </li>
+                    <li class="set-item">
+                        <a class="set-link" href="">Facebook</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
     </section>
 
 </main>
 
-<footer></footer>
+<footer class="footer">
+    <div class="container">
+        <div>
+            <h2>Stay posted</h2>
+            <p>Let's be friends. Subscribe to our newsletter to receive updates on new launches, recipes, playlists, and more.</p>
+            <button type=""></button>
+        </div>
+
+        <div>
+            <h3>Explore</h3>
+            <ul>
+                <li>Home</li>
+                <li>Shop</li>
+                <li>Membership</li>
+                <li>Our Story</li>
+                <li>FAQ</li>
+                <li>Refer a Friend</li>
+                <li>Corporate Gifting</li>
+                <li>Gift Card</li>
+            </ul>
+            <h3>Follow</h3>
+            <ul>
+                <li>Instagram</li>
+                <li>Spotify</li>
+                <li>Twitter</li>
+                <li>Facebook</li>
+            </ul>
+            <h3>Drop Us a Line</h3>
+            <ul>
+                <li>hello@drink.haus</li>
+                <li>press@drink.haus</li>
+                <li>partnerships@drink.haus</li>
+                <li>jobs@drink.haus</li>
+                <li>wholesale@drink.haus</li>
+            </ul>
+        </div>
+
+        <div>
+            <ul>
+                <li>&#169; Haus 2021</li>
+                <li>Contact Us</li>
+                <li>Return Policy</li>
+                <li>Privacy Policy</li>
+                <li>Terms &#38; Conditions</li>
+            </ul>
+        </div>
+        
+    </div>
+
+    
+</footer>
 
 </body>
 </html>
