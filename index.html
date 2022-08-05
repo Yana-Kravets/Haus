@@ -98,14 +98,14 @@
         <div class="container">
             <div>
                 <p class="offer-text-up">Made with natural <br> ingredients, nothing fake</p>
-                <h2 class="offer-title">Shop All Flavors</h2>
+                <a class="offer-link" href="">Shop All Flavors</a>
             </div>
 
             <ul class="offer-list">
                 <li class="offer-item">
                     <img class="offer-img" src="./images/photo2.jpg" alt="The Sampler Kit" width="382" height="451">
                     <div class="offer-wrapper"> 
-                        <h3 class="offer-subtitle">The Sampler Kit</h3>
+                        <h2 class="offer-title">The Sampler Kit</h2>
                         <p class="offer-text">Try a variety of Haus flavors with our customizable four-bottle kit. Each bottle serves 2-3 drinks.</p>
                         <button class="button offer-btn" type="button">Shop Now</button>
                     </div>
@@ -113,7 +113,7 @@
                 <li class="offer-item">
                     <img class="offer-img" src="./images/photo3.jpg" alt="Grapefruit Jalapeño" width="382" height="451">
                     <div class="offer-wrapper">
-                        <h3 class="offer-subtitle">Grapefruit Jalapeño</h3>
+                        <h2 class="offer-title">Grapefruit Jalapeño</h2>
                         <p class="offer-text">Light and refreshing, this aperitif is a bright blend of citrus with a subtle kick of fresh jalapeño.</p>
                         <button class="button offer-btn" type="button">Shop Now</button>
                     </div>
@@ -121,7 +121,7 @@
                 <li class="offer-item">
                     <img class="offer-img" src="./images/photo4.jpg" alt="Citrus Flower" width="382" height="451">
                     <div class="offer-wrapper">
-                        <h3 class="offer-subtitle">Citrus Flower</h3>
+                        <h2 class="offer-title">Citrus Flower</h2>
                         <p class="offer-text">A fresh Californian take on the apéritif. Made with crisp lemon and subtle elderflower.</p>
                         <button class="button offer-btn" type="button">Shop Now</button>
                     </div>
@@ -143,21 +143,23 @@
 
     <section class="descrip">
         <div class="container page-descrip">
-            <ul class="descrip-list">
-                <li class="descrip-item">
-                    <h2 class="descrip-title">Easy to drink</h2>
-                    <p class="descrip-text">The perfect anytime drink, sip Haus on its own or with simple mixers you probably already have like soda or tonic.</p>
-                </li>
-                <li class="descrip-item">
-                    <h2 class="descrip-title">Natural ingredients. Nothing fake.</h2>
-                    <p class="descrip-text">Artificial ingredients and refined sugars are a big culprit in hangovers. Feel good about what’s in your glass that
-                    night — and the next day.</p>
-                </li>
-                <li class="descrip-item">
-                    <h2 class="descrip-title">Delivered to your door</h2>
-                    <p class="descrip-text">We blend, bottle, and ship our products straight from Sonoma, CA to your doorstep.</p>
-                </li>
-            </ul>
+            <div class="descrip-list-container">
+                <ul class="descrip-list">
+                    <li class="descrip-item">
+                        <h2 class="descrip-title">Easy to drink</h2>
+                        <p class="descrip-text">The perfect anytime drink, sip Haus on its own or with simple mixers you probably already have like soda or tonic.</p>
+                    </li>
+                    <li class="descrip-item">
+                        <h2 class="descrip-title">Natural ingredients. Nothing fake.</h2>
+                        <p class="descrip-text">Artificial ingredients and refined sugars are a big culprit in hangovers. Feel good about what’s in your glass that
+                        night — and the next day.</p>
+                    </li>
+                    <li class="descrip-item">
+                        <h2 class="descrip-title">Delivered to your door</h2>
+                        <p class="descrip-text">We blend, bottle, and ship our products straight from Sonoma, CA to your doorstep.</p>
+                    </li>
+                </ul>
+            </div>
             <div>
                 <img src="./images/photo6.jpg" alt="two bottles on the table" width="880" height="608">
             </div>
@@ -189,9 +191,9 @@
     <section class="wedo">
         <div class="container page-wedo">
             <div>
-                <img src="./images/photo7.jpg" alt="flavors" width="550" height="470">
+                <img class="wedo-img" src="./images/photo7.jpg" alt="flavors" width="550" height="470">
             </div>
-            <div>
+            <div class="wedo-right">
                 <h2 class="wedo-title">We do things differently than most producers</h2>
                 <p class="wedo-text">Our flavors are derived from real fruits, herbs, and botanicals, not ingredients from a lab. We leave out the artificial
                 ingredients and excess sugar, and tell you what’s inside. It’s a better way to drink.</p>
@@ -201,28 +203,33 @@
     </section>
 
     <section class="set">
-        <div class="container">
+        <div class="container page-set">
             <div class="set-img-wrapper">
                 <img src="./images/photo8.jpg" alt="feast with alcoholic beverages" width="1440" height="568">
             </div>
-            <div class="set-up-form">
-                <h2 class="set-title">Set the mood</h2>
-                <p class="set-up-text">Curated playlists from Woody + Helena, plus some of our friends and favorite brands.</p>
-                <button class="button set-btn" type="button">Spotify</button>
-            </div>
-            <div class="set-down-form">
-                <p class="set-down-text">Follow us, share us, drink Ha(us)</p>
-                <ul class="set-list">
-                    <li class="set-item">
-                        <a class="set-link" href="">Instagram</a>
-                    </li>
-                    <li class="set-item">
-                        <a class="set-link" href="">Twitter</a>
-                    </li>
-                    <li class="set-item">
-                        <a class="set-link" href="">Facebook</a>
-                    </li>
-                </ul>
+
+            <div class="set-down-form-wrapper">
+                <div class="set-up-form">
+                    <h2 class="set-title">Set the mood</h2>
+                    <p class="set-up-text">Curated playlists from Woody + Helena, plus some of our <br>friends and favorite brands.</p>
+                    <button class="button set-btn" type="button">Spotify</button>
+                </div>
+            
+                <div class="set-down-form">
+                    <p class="set-down-text">Follow us, share us, drink Ha(us)</p>
+                    <ul class="set-list">
+                        <li class="set-item">
+                            <a class="set-link" href="">Instagram</a>
+                        </li>
+                        <li class="set-item">
+                            <a class="set-link" href="">Twitter</a>
+                        </li>
+                        <li class="set-item">
+                            <a class="set-link" href="">Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
         </div>
     </section>
@@ -231,54 +238,113 @@
 
 <footer class="footer">
     <div class="container">
-        <div>
-            <h2>Stay posted</h2>
-            <p>Let's be friends. Subscribe to our newsletter to receive updates on new launches, recipes, playlists, and more.</p>
-            <button type=""></button>
-        </div>
 
-        <div>
-            <h3>Explore</h3>
-            <ul>
-                <li>Home</li>
-                <li>Shop</li>
-                <li>Membership</li>
-                <li>Our Story</li>
-                <li>FAQ</li>
-                <li>Refer a Friend</li>
-                <li>Corporate Gifting</li>
-                <li>Gift Card</li>
-            </ul>
-            <h3>Follow</h3>
-            <ul>
-                <li>Instagram</li>
-                <li>Spotify</li>
-                <li>Twitter</li>
-                <li>Facebook</li>
-            </ul>
-            <h3>Drop Us a Line</h3>
-            <ul>
-                <li>hello@drink.haus</li>
-                <li>press@drink.haus</li>
-                <li>partnerships@drink.haus</li>
-                <li>jobs@drink.haus</li>
-                <li>wholesale@drink.haus</li>
-            </ul>
-        </div>
+        <div class="page-footer">
 
-        <div>
-            <ul>
-                <li>&#169; Haus 2021</li>
-                <li>Contact Us</li>
-                <li>Return Policy</li>
-                <li>Privacy Policy</li>
-                <li>Terms &#38; Conditions</li>
+            <form class="form">
+                <h2 class="form-title">Stay posted</h2>
+                <p class="form-text">Let's be friends. Subscribe to our newsletter to receive updates on new launches, recipes, playlists, and more.</p>
+                <div class="form-wrapper">
+                    <input type="text" class="form-item"  placeholder="YOUR EMAIL ADDRESS">
+                    <button class="form-btn" type="submit">submit</button>
+                </div>
+            </form>
+
+            <div class="footer-list-container">
+
+                <div class="footer-list-wrapper">
+                    <h3 class="footer-title">Explore</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Home</a>   
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Shop</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Membership</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Our Story</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">FAQ</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Refer a Friend</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Corporate Gifting</a>   
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Gift Card</a>   
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-list-wrapper">
+                    <h3 class="footer-title">Follow</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Instagram</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Spotify</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Twitter</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-list-wrapper">
+                    <h3 class="footer-title">Drop Us a Line</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a class="footer-link" href="">hello@drink.haus</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">press@drink.haus</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">partnerships@drink.haus</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">jobs@drink.haus</a>
+                        </li>
+                        <li class="footer-item">
+                            <a class="footer-link" href="">wholesale@drink.haus</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    
+
+        <div class="footer-down-container">
+            <ul class="footer-down-list">
+                <li class="footer-down-item">
+                    <a class="footer-down-link" href=""><span class="footer-down-link-first">&#169; Haus 2021</span></a>
+                </li>
+                <li class="footer-down-item">
+                    <a class="footer-down-link" href="">Contact Us</a>
+                </li>
+                <li class="footer-down-item">
+                    <a class="footer-down-link" href="">Return Policy</a>
+                </li>
+                <li class="footer-down-item">
+                    <a class="footer-down-link" href="">Privacy Policy</a>
+                </li>
+                <li class="footer-down-item">
+                    <a class="footer-down-link" href="">Terms &#38; Conditions</a>
+                </li>
             </ul>
         </div>
-        
     </div>
 
-    
 </footer>
 
 </body>
